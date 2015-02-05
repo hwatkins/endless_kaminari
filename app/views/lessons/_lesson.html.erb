@@ -1,0 +1,7 @@
+<% @lessons.each do |lesson| %>
+  <tr>
+  	<td><%= lesson.id %></td>
+    <td><%= lesson.name %></td>
+    <td><%= link_to "watch", lesson_path(lesson) %></td>
+  </tr>
+<% end %>

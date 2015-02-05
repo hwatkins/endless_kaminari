@@ -1,0 +1,11 @@
+== README
+
+This is a simple demo app to show using jquery-infinite-pages with turbolinks
+
+`rake db:migrate`
+`rake db:seed`
+
+Go to
+http://localhost:3000/lessons
+
+scroll down to see the page fill in, go to the top click about, then click lessons again.

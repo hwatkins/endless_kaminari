@@ -1,0 +1,14 @@
+
+<%= link_to 'About', page_path('about') %>
+<div class="infinite-table">
+  <table>
+    <tr>
+      <th>Lesson</th>
+      <th></th>
+    </tr>
+    <%= render :partial => 'lesson', :object => @lessons %>
+  </table>
+  <p class="pagination">
+    <%= link_to_next_page(@lessons, 'Next Page', :remote => true) %>
+  </p>
+</div>
